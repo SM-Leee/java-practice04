@@ -9,6 +9,11 @@ public class PrinterTest {
 		printer.println( true );
 		printer.println( 5.7 );
 		printer.println( "홍길동" );
+		printer.println(10, true, 5.7, "홍길동");
+		
+		//가변변수
+		System.out.println(printer.sum(1,2,3,4,5,6,7,8,9));
+		System.out.println(printer.sum(10,20,30,40,50,60));
 	}
 
 }
