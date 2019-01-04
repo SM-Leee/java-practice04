@@ -25,6 +25,7 @@ public class Printer	 {
 //	}
 	
 	//제네릭 + 가변 변수
+	//<T extends Shape> -> Shape안에 있는 변수들로만 사용하여라
 	@SuppressWarnings("unchecked")
 	public <T> void println(T... ts) {
 		
